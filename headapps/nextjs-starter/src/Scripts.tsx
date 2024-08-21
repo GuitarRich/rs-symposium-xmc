@@ -2,15 +2,17 @@
 import BYOC from 'src/byoc';
 import CdpPageView from 'components/CdpPageView';
 import FEAASScripts from 'components/FEAASScripts';
+import EditingScripts from 'components/EditingScripts';
 
 const Scripts = (): JSX.Element => {
-  return (
-    <>
-      <BYOC />
-      <CdpPageView />
-      <FEAASScripts />
-    </>
-  );
+    return (
+        <>
+            <BYOC />
+            <CdpPageView />
+            <FEAASScripts />
+            <EditingScripts />
+        </>
+    );
 };
 
 export default Scripts;
