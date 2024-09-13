@@ -1,10 +1,10 @@
 {
-    "name": "nextjs-starter",
+    "name": "StakePark",
     "description": "Application utilizing Sitecore JavaScript Services and Next.js",
     "version": "22.1.0",
     "private": true,
     "config": {
-        "appName": "nextjs-starter",
+        "appName": "SkatePark",
         "rootPlaceholders": [
             "jss-main"
         ],
